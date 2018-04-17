@@ -1,0 +1,38 @@
+
+.box    {
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    width: 200px;
+    
+}
+
+@media (max-width: 767px) {
+    .box {
+        background-color: blue;
+    }
+    
+    .mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        background-color: yellow;
+    }
+    
+    .tablet {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .box {
+        background-color: green;
+    }
+    
+
+}
+    

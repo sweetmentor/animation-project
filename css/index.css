@@ -1,0 +1,12 @@
+.column {
+    background color: red;
+    border-radius: 3px;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    margin: 10px
+    width: 30%
+}
