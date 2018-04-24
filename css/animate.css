@@ -1,10 +1,10 @@
 .circle {
     background: linear-gradient(to bottom,red, white);
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     left: 50%;
-    top:20%;
+    top:80%;
     position: absolute;
     animation: movingbox 5s infinite;
     transition-timing-function: ease-in-out;
@@ -13,26 +13,28 @@
 @keyframes movingbox {
     0% { top: 0%; height: 200px }
     50% {top: 35%; }
-    100% { bottom: 100; height: 100px }
+    100% { bottom: 100; }
     
 }
 
 .circle1 {
     background: linear-gradient(to bottom,red, white);
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    left: 0%;
-    top:20%;
+    left: 10%;
+    top:80%;
     position: absolute;
     animation: movingbox 10s infinite;
     transition-timing-function: ease-in-out;
 }
 
 @keyframes movingbox {
-    0% {top: 0%; height: 100px }
+    0% {top: 0%; }
     50% {top: 35%; }
     100% {height: 100px }
-    
 }
+    
 
+
+ 

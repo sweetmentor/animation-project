@@ -42,5 +42,5 @@ body {
 }
 
 .perspective:hover {
-    transform: perspective(80px) rotateX(20deg);
+    transform: perspective(80px) rotate(20deg);
 }
